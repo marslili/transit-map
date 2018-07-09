@@ -1,6 +1,6 @@
 {
-  "center.x": 8.55,
-  "center.y": 47.26,
+  "center.x": 121.04,
+  "center.y": 24.0,
   "map_type_id": "roadmap",
   "zoom.start": 10,
   "zoom.min": 7,
@@ -17,113 +17,149 @@
   "zoom.satellite.shapes_max": 18,
   "zoom.vehicle_follow": 17,
   "zoom.vehicle_mouseover_min": 7,
-  "ft_layer_ids.mask": "1tDHsjdz7uhhAmWlmmwjR1P2Huf2LKMMiICPVdw",
-  "ft_layer_ids.gtfs_shapes": null,
-  "ft_layer_ids.gtfs_stops": null,
-  "ft_layer_ids.topology_edges": "1-1B2tYIO2JSnaacEHO8sfWVjm1S387lMEkHkjc4",
-  "ft_layer_ids.topology_stations": "1YppDCNud7566oK_VwHsuUhGJqnm_CLDStMS3IuM",
-  "api_paths.trips": "api/demo/trips.json",
+  "ft_layer_ids.mask": null,
+  "ft_layer_ids.gtfs_shapes": "1aJ_cAZzPG4O72ljnPKgh7AVgNsTpfKxbS2N43WAl",
+  "ft_layer_ids.gtfs_stops": "1569D1ymcTz9JmjtlXRCeL_yQU4dLFKqv-ahSOJrz",
+  "ft_layer_ids.topology_edges": null,
+  "ft_layer_ids.topology_stations": null,
+  "api_paths.trips": "api/getTrips/[hhmm]",
   "api_paths.departures": null,
-  "geojson.gtfs_shapes": null,
-  "geojson.gtfs_stops": null,
-  "geojson.topology_edges": "api/geojson/edges.geojson",
-  "geojson.topology_stations": "api/geojson/stations.geojson",
+  "geojson.gtfs_shapes": "api/geojson/gtfs_shapes.geojson",
+  "geojson.gtfs_stops": "api/geojson/gtfs_stops.geojson",
+  "geojson.topology_edges": null,
+  "geojson.topology_stations": null,
   "routes": {
-    "cnl": {
-      "icon": "static/images/route_icons/demo/cnl.png",
-      "route_short_name": "",
-      "route_color": "0178BC",
-      "route_text_color": "FFFFFF"
+    "CZ": {
+      "icon": "static/images/route_icons/CZ.png",
+      "route_short_name": "CZ",
+      "route_color": "#0178BC",
+      "route_text_color": "#FFFFFF"
     },
-    "d": {
-      "icon": "static/images/route_icons/demo/d.png",
-      "route_short_name": "",
-      "route_color": "0178BC",
-      "route_text_color": "FFFFFF"
+    "EL": {
+      "icon": "static/images/route_icons/EL.png",
+      "route_short_name": "EL",
+      "route_color": "#0178BC",
+      "route_text_color": "#FFFFFF"
     },
-    "ec": {
-      "icon": "static/images/route_icons/demo/ec.png",
-      "route_short_name": "",
-      "route_color": "0178BC",
-      "route_text_color": "FFFFFF"
+    "JJ": {
+      "icon": "static/images/route_icons/JJ.png",
+      "route_short_name": "JJ",
+      "route_color": "#0178BC",
+      "route_text_color": "#FFFFFF"
     },
-    "en": {
-      "icon": "static/images/route_icons/demo/en.png",
-      "route_short_name": "",
-      "route_color": "0178BC",
-      "route_text_color": "FFFFFF"
+    "LJ": {
+      "icon": "static/images/route_icons/LJ.png",
+      "route_short_name": "LJ",
+      "route_color": "#0178BC",
+      "route_text_color": "#FFFFFF"
     },
-    "ext": {
-      "icon": "static/images/route_icons/demo/ext.png",
-      "route_short_name": "",
-      "route_color": "0178BC",
-      "route_text_color": "FFFFFF"
+    "NL": {
+      "icon": "static/images/route_icons/NL.png",
+      "route_short_name": "NL",
+      "route_color": "#0178BC",
+      "route_text_color": "#FFFFFF"
     },
-    "ic": {
-      "icon": "static/images/route_icons/demo/ic.png",
-      "route_short_name": "",
-      "route_color": "0178BC",
-      "route_text_color": "FFFFFF"
+    "NW": {
+      "icon": "static/images/route_icons/NW.png",
+      "route_short_name": "NW",
+      "route_color": "#0178BC",
+      "route_text_color": "#FFFFFF"
     },
-    "ice": {
-      "icon": "static/images/route_icons/demo/ice.png",
-      "route_short_name": "",
-      "route_color": "0178BC",
-      "route_text_color": "FFFFFF"
+    "OM": {
+      "icon": "static/images/route_icons/OM.png",
+      "route_short_name": "OM",
+      "route_color": "#0178BC",
+      "route_text_color": "#FFFFFF"
     },
-    "icn": {
-      "icon": "static/images/route_icons/demo/icn.png",
-      "route_short_name": "",
-      "route_color": "0178BC",
-      "route_text_color": "FFFFFF"
+    "PL": {
+      "icon": "static/images/route_icons/PL.png",
+      "route_short_name": "PL",
+      "route_color": "#0178BC",
+      "route_text_color": "#FFFFFF"
     },
-    "ir": {
-      "icon": "static/images/route_icons/demo/ir.png",
-      "route_short_name": "",
-      "route_color": "0178BC",
-      "route_text_color": "FFFFFF"
+    "PX": {
+      "icon": "static/images/route_icons/PX.png",
+      "route_short_name": "PX",
+      "route_color": "#0178BC",
+      "route_text_color": "#FFFFFF"
     },
-    "ire": {
-      "icon": "static/images/route_icons/demo/ire.png",
-      "route_short_name": "",
-      "route_color": "0178BC",
-      "route_text_color": "FFFFFF"
+    "SA": {
+      "icon": "static/images/route_icons/SA.png",
+      "route_short_name": "SA",
+      "route_color": "#0178BC",
+      "route_text_color": "#FFFFFF"
     },
-    "r": {
-      "icon": "static/images/route_icons/demo/r.png",
-      "route_short_name": "",
-      "route_color": "0178BC",
-      "route_text_color": "FFFFFF"
+    "SH": {
+      "icon": "static/images/route_icons/SH.png",
+      "route_short_name": "SH",
+      "route_color": "#0178BC",
+      "route_text_color": "#FFFFFF"
     },
-    "re": {
-      "icon": "static/images/route_icons/demo/re.png",
-      "route_short_name": "",
-      "route_color": "0178BC",
-      "route_text_color": "FFFFFF"
+    "SL": {
+      "icon": "static/images/route_icons/SL.png",
+      "route_short_name": "SL",
+      "route_color": "#0178BC",
+      "route_text_color": "#FFFFFF"
     },
-    "rj": {
-      "icon": "static/images/route_icons/demo/rj.png",
-      "route_short_name": "",
-      "route_color": "0178BC",
-      "route_text_color": "FFFFFF"
+    "TL": {
+      "icon": "static/images/route_icons/TL.png",
+      "route_short_name": "TL",
+      "route_color": "#0178BC",
+      "route_text_color": "#FFFFFF"
     },
-    "s": {
-      "icon": "static/images/route_icons/demo/s.png",
-      "route_short_name": "",
-      "route_color": "0178BC",
-      "route_text_color": "FFFFFF"
+    "TL_C": {
+      "icon": "static/images/route_icons/TL_C.png",
+      "route_short_name": "TL_C",
+      "route_color": "#0178BC",
+      "route_text_color": "#FFFFFF"
     },
-    "tgv": {
-      "icon": "static/images/route_icons/demo/tgv.png",
-      "route_short_name": "",
-      "route_color": "0178BC",
-      "route_text_color": "FFFFFF"
+    "TL_M": {
+      "icon": "static/images/route_icons/TL_M.png",
+      "route_short_name": "TL_M",
+      "route_color": "#0178BC",
+      "route_text_color": "#FFFFFF"
     },
-    "zug": {
-      "icon": "static/images/route_icons/demo/zug.png",
-      "route_short_name": "",
-      "route_color": "0178BC",
-      "route_text_color": "FFFFFF"
+    "TL_N": {
+      "icon": "static/images/route_icons/TL_N.png",
+      "route_short_name": "TL_N",
+      "route_color": "#0178BC",
+      "route_text_color": "#FFFFFF"
+    },
+    "TL_S": {
+      "icon": "static/images/route_icons/TL_S.png",
+      "route_short_name": "TL_S",
+      "route_color": "#0178BC",
+      "route_text_color": "#FFFFFF"
+    },
+    "TT": {
+      "icon": "static/images/route_icons/TT.png",
+      "route_short_name": "TT",
+      "route_color": "#0178BC",
+      "route_text_color": "#FFFFFF"
+    },
+    "WL": {
+      "icon": "static/images/route_icons/WL.png",
+      "route_short_name": "WL",
+      "route_color": "#0178BC",
+      "route_text_color": "#FFFFFF"
+    },
+    "WL_C": {
+      "icon": "static/images/route_icons/WL_C.png",
+      "route_short_name": "WL_C",
+      "route_color": "#0178BC",
+      "route_text_color": "#FFFFFF"
+    },
+    "WL_M": {
+      "icon": "static/images/route_icons/WL_M.png",
+      "route_short_name": "WL_M",
+      "route_color": "#0178BC",
+      "route_text_color": "#FFFFFF"
+    },
+    "YL": {
+      "icon": "static/images/route_icons/YL.png",
+      "route_short_name": "YL",
+      "route_color": "#0178BC",
+      "route_text_color": "#FFFFFF"
     }
   }
 }
