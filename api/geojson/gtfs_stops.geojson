@@ -4,3435 +4,570 @@
     {
       "type": "Feature",
       "properties": {
-        "stop_id": "tra_1209",
+        "stop_id": "mrt_R3",
         "stop_code": null,
-        "stop_name": "石榴"
+        "stop_name": "小港"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.579973,
-          23.731643
+          120.35384,
+          22.564822
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "stop_id": "tra_1318",
+        "stop_id": "mrt_R4",
         "stop_code": null,
-        "stop_name": "潭子"
+        "stop_name": "高雄國際機場"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.705947,
-          24.212802
+          120.342125,
+          22.570199
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "stop_id": "tra_1631",
+        "stop_id": "mrt_R4A",
         "stop_code": null,
-        "stop_name": "山里"
+        "stop_name": "草衙"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.138031,
-          22.862046
+          120.328443,
+          22.580363
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "stop_id": "tra_1808",
+        "stop_id": "mrt_R5",
         "stop_code": null,
-        "stop_name": "雙溪"
+        "stop_name": "前鎮高中"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.866548,
-          25.038544
+          120.319551,
+          22.588356
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "stop_id": "tra_1605",
+        "stop_id": "mrt_R6",
         "stop_code": null,
-        "stop_name": "平和"
+        "stop_name": "凱旋"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.520485,
-          23.882774
+          120.315142,
+          22.596856
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "stop_id": "tra_1612",
+        "stop_id": "mrt_R7",
         "stop_code": null,
-        "stop_name": "光復"
+        "stop_name": "獅甲"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.421168,
-          23.666293
+          120.308189,
+          22.60587
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "stop_id": "tra_1106",
+        "stop_id": "mrt_R8",
         "stop_code": null,
-        "stop_name": "龍港"
+        "stop_name": "三多商圈"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.758142,
-          24.611683
+          120.304499,
+          22.614011
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "stop_id": "tra_1230",
+        "stop_id": "mrt_R9",
         "stop_code": null,
-        "stop_name": "中洲"
+        "stop_name": "中央公園"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.2527,
-          22.904544
+          120.301151,
+          22.624628
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "stop_id": "tra_1012",
+        "stop_id": "mrt_R10",
         "stop_code": null,
-        "stop_name": "樹林"
+        "stop_name": "美麗島"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.424564,
-          24.991348
+          120.301957,
+          22.631387
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "stop_id": "tra_1020",
+        "stop_id": "mrt_R11",
         "stop_code": null,
-        "stop_name": "富岡"
+        "stop_name": "高雄車站"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.083019,
-          24.934273
+          120.302664,
+          22.639769
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "stop_id": "tra_1107",
+        "stop_id": "mrt_R12",
         "stop_code": null,
-        "stop_name": "白沙屯"
+        "stop_name": "後驛"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.708198,
-          24.564797
+          120.303361,
+          22.648314
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "stop_id": "tra_1305",
+        "stop_id": "mrt_R13",
         "stop_code": null,
-        "stop_name": "苗栗"
+        "stop_name": "凹子底"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.822319,
-          24.570036
+          120.303104,
+          22.657126
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "stop_id": "tra_2203",
+        "stop_id": "mrt_R14",
         "stop_code": null,
-        "stop_name": "竹中"
+        "stop_name": "巨蛋"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.031306,
-          24.781358
+          120.303308,
+          22.666135
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "stop_id": "tra_1823",
+        "stop_id": "mrt_R15",
         "stop_code": null,
-        "stop_name": "羅東"
+        "stop_name": "生態園區"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.774629,
-          24.677929
+          120.306618,
+          22.676738
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "stop_id": "tra_1022",
-        "stop_code": null,
-        "stop_name": "新豐"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.99634,
-          24.869228
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1026",
-        "stop_code": null,
-        "stop_name": "香山"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.91389,
-          24.763121
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1212",
-        "stop_code": null,
-        "stop_name": "石龜"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.471007,
-          23.639568
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1001",
-        "stop_code": null,
-        "stop_name": "基隆"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.738366,
-          25.131598
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1712",
-        "stop_code": null,
-        "stop_name": "新城"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.640866,
-          24.127524
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1609",
-        "stop_code": null,
-        "stop_name": "南平"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.45828,
-          23.782276
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1625",
-        "stop_code": null,
-        "stop_name": "海端"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.176829,
-          23.102934
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1812",
-        "stop_code": null,
-        "stop_name": "大里"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.922496,
-          24.966799
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1705",
-        "stop_code": null,
-        "stop_name": "南澳"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.800926,
-          24.463396
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1820",
-        "stop_code": null,
-        "stop_name": "宜蘭"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.758253,
-          24.754512
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1715",
-        "stop_code": null,
-        "stop_name": "花蓮"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.600993,
-          23.992868
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1604",
-        "stop_code": null,
-        "stop_name": "志學"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.529437,
-          23.907494
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1224",
-        "stop_code": null,
-        "stop_name": "拔林"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.32133,
-          23.172622
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1011",
-        "stop_code": null,
-        "stop_name": "板橋"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.463497,
-          25.014399
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1028",
-        "stop_code": null,
-        "stop_name": "竹南"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.880888,
-          24.686562
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1819",
-        "stop_code": null,
-        "stop_name": "四城"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.762727,
-          24.786802
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1818",
-        "stop_code": null,
-        "stop_name": "礁溪"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.775354,
-          24.827034
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1225",
-        "stop_code": null,
-        "stop_name": "善化"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.306551,
-          23.133323
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1235",
-        "stop_code": null,
-        "stop_name": "楠梓"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.324371,
-          22.727035
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1809",
-        "stop_code": null,
-        "stop_name": "貢寮"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.908703,
-          25.022044
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1512",
-        "stop_code": null,
-        "stop_name": "金崙"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.967239,
-          22.531488
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1228",
-        "stop_code": null,
-        "stop_name": "臺南"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.212966,
-          22.997144
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1616",
-        "stop_code": null,
-        "stop_name": "瑞穗"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.376841,
-          23.497376
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1611",
-        "stop_code": null,
-        "stop_name": "萬榮"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.419067,
-          23.711978
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1418",
-        "stop_code": null,
-        "stop_name": "枋寮"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.595098,
-          22.368019
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1033",
-        "stop_code": null,
-        "stop_name": "北湖"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.055671,
-          24.922207
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1231",
-        "stop_code": null,
-        "stop_name": "大湖"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.253934,
-          22.878228
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1908",
-        "stop_code": null,
-        "stop_name": "菁桐"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.723649,
-          25.023918
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1709",
-        "stop_code": null,
-        "stop_name": "和平"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.753346,
-          24.298296
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1514",
-        "stop_code": null,
-        "stop_name": "太麻里"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.993368,
-          22.614936
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1321",
-        "stop_code": null,
-        "stop_name": "成功"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.590164,
-          24.114232
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1815",
-        "stop_code": null,
-        "stop_name": "外澳"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.845758,
-          24.883703
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1517",
-        "stop_code": null,
-        "stop_name": "康樂"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.09356,
-          22.764277
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1710",
-        "stop_code": null,
-        "stop_name": "和仁"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.711749,
-          24.242199
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_2704",
-        "stop_code": null,
-        "stop_name": "龍泉"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.750404,
-          23.835188
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1319",
-        "stop_code": null,
-        "stop_name": "臺中"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.686827,
-          24.136955
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1109",
-        "stop_code": null,
-        "stop_name": "通霄"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.678425,
-          24.491403
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1632",
-        "stop_code": null,
-        "stop_name": "臺東"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.123175,
-          22.793711
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1614",
-        "stop_code": null,
-        "stop_name": "富源"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.380122,
-          23.580268
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_2702",
-        "stop_code": null,
-        "stop_name": "源泉"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.642034,
-          23.798445
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_2210",
-        "stop_code": null,
-        "stop_name": "內灣"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.182325,
-          24.705317
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1222",
-        "stop_code": null,
-        "stop_name": "林鳳營"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.32093,
-          23.24259
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1242",
-        "stop_code": null,
-        "stop_name": "新左營"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.306788,
-          22.687544
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1408",
-        "stop_code": null,
-        "stop_name": "麟洛"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.514378,
-          22.634849
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1036",
-        "stop_code": null,
-        "stop_name": "新富"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.066512,
-          24.931239
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1223",
-        "stop_code": null,
-        "stop_name": "隆田"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.31929,
-          23.192699
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1816",
-        "stop_code": null,
-        "stop_name": "頭城"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.822556,
-          24.858976
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1807",
-        "stop_code": null,
-        "stop_name": "牡丹"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.851977,
-          25.058738
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1217",
-        "stop_code": null,
-        "stop_name": "水上"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.399665,
-          23.433995
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1234",
-        "stop_code": null,
-        "stop_name": "橋頭"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.310334,
-          22.760994
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1018",
-        "stop_code": null,
-        "stop_name": "埔心"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.183827,
-          24.919951
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1320",
-        "stop_code": null,
-        "stop_name": "烏日"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.622472,
-          24.108692
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1024",
-        "stop_code": null,
-        "stop_name": "北新竹"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.98367,
-          24.808746
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_2705",
-        "stop_code": null,
-        "stop_name": "集集"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.784891,
-          23.826451
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1215",
-        "stop_code": null,
-        "stop_name": "嘉義"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.441026,
-          23.479139
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1404",
-        "stop_code": null,
-        "stop_name": "九曲堂"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.420879,
-          22.656423
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1713",
-        "stop_code": null,
-        "stop_name": "景美"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.610786,
-          24.090317
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1508",
-        "stop_code": null,
-        "stop_name": "大武"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.900713,
-          22.365206
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1804",
-        "stop_code": null,
-        "stop_name": "瑞芳"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.806149,
-          25.108928
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1507",
-        "stop_code": null,
-        "stop_name": "古莊"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.878079,
-          22.345509
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1806",
-        "stop_code": null,
-        "stop_name": "三貂嶺"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.822559,
-          25.065544
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1805",
-        "stop_code": null,
-        "stop_name": "侯硐"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.827424,
-          25.087009
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1302",
-        "stop_code": null,
-        "stop_name": "造橋"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.867051,
-          24.641439
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1308",
-        "stop_code": null,
-        "stop_name": "銅鑼"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.786173,
-          24.48634
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_2211",
-        "stop_code": null,
-        "stop_name": "榮華"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.083399,
-          24.74839
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1406",
-        "stop_code": null,
-        "stop_name": "屏東"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.486203,
-          22.669306
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1029",
-        "stop_code": null,
-        "stop_name": "三坑"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.742009,
-          25.123081
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1502",
-        "stop_code": null,
-        "stop_name": "加祿"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.624621,
-          22.330971
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1218",
-        "stop_code": null,
-        "stop_name": "南靖"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.386544,
-          23.41345
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1814",
-        "stop_code": null,
-        "stop_name": "龜山"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.868878,
-          24.904818
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1221",
-        "stop_code": null,
-        "stop_name": "柳營"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.322304,
-          23.277737
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1619",
-        "stop_code": null,
-        "stop_name": "玉里"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.311726,
-          23.331518
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1310",
-        "stop_code": null,
-        "stop_name": "三義"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.773931,
-          24.42062
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_2212",
-        "stop_code": null,
-        "stop_name": "千甲"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.003273,
-          24.806662
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1115",
-        "stop_code": null,
-        "stop_name": "沙鹿"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.557627,
-          24.237044
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1021",
-        "stop_code": null,
-        "stop_name": "湖口"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.044009,
-          24.903029
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1226",
-        "stop_code": null,
-        "stop_name": "新市"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.290035,
-          23.06823
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1324",
-        "stop_code": null,
-        "stop_name": "新烏日"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.614309,
-          24.109851
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1827",
-        "stop_code": null,
-        "stop_name": "蘇澳"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.85144,
-          24.595181
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1238",
-        "stop_code": null,
-        "stop_name": "高雄"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.302111,
-          22.63962
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1120",
-        "stop_code": null,
-        "stop_name": "彰化"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.538539,
-          24.081666
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1108",
-        "stop_code": null,
-        "stop_name": "新埔"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.695179,
-          24.54018
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1233",
-        "stop_code": null,
-        "stop_name": "岡山"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.299933,
-          22.792355
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1307",
-        "stop_code": null,
-        "stop_name": "南勢"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.791571,
-          24.522509
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1204",
-        "stop_code": null,
-        "stop_name": "永靖"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.571672,
-          23.928148
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1628",
-        "stop_code": null,
-        "stop_name": "瑞和"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.15579,
-          22.979968
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1617",
-        "stop_code": null,
-        "stop_name": "三民"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.345344,
-          23.424766
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1014",
-        "stop_code": null,
-        "stop_name": "鶯歌"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.355125,
-          24.954532
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_2204",
-        "stop_code": null,
-        "stop_name": "上員"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.055725,
-          24.77789
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1811",
-        "stop_code": null,
-        "stop_name": "石城"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.945191,
-          24.978334
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1032",
-        "stop_code": null,
-        "stop_name": "浮洲"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.444649,
-          25.004184
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1027",
-        "stop_code": null,
-        "stop_name": "崎頂"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.87179,
-          24.722782
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1610",
-        "stop_code": null,
-        "stop_name": "鳳林"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.447024,
-          23.74634
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1118",
-        "stop_code": null,
-        "stop_name": "追分"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.570158,
-          24.120613
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1219",
-        "stop_code": null,
-        "stop_name": "後壁"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.360517,
-          23.36629
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1607",
-        "stop_code": null,
-        "stop_name": "豐田"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.496168,
-          23.848475
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1416",
-        "stop_code": null,
-        "stop_name": "佳冬"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.547742,
-          22.414087
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1412",
-        "stop_code": null,
-        "stop_name": "崁頂"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.514765,
-          22.51306
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1826",
-        "stop_code": null,
-        "stop_name": "蘇澳新"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.82703,
-          24.609024
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1821",
-        "stop_code": null,
-        "stop_name": "二結"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.774131,
-          24.705267
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1114",
-        "stop_code": null,
-        "stop_name": "清水"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.569178,
-          24.263624
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1213",
-        "stop_code": null,
-        "stop_name": "大林"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.455839,
-          23.601076
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1903",
-        "stop_code": null,
-        "stop_name": "大華"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.797929,
-          25.049758
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1505",
-        "stop_code": null,
-        "stop_name": "枋野"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.717243,
-          22.280818
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1703",
-        "stop_code": null,
-        "stop_name": "永樂"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.844564,
-          24.568417
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1803",
-        "stop_code": null,
-        "stop_name": "四腳亭"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.761887,
-          25.102751
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1007",
-        "stop_code": null,
-        "stop_name": "松山"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.577965,
-          25.04933
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1510",
-        "stop_code": null,
-        "stop_name": "瀧溪"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.941771,
-          22.46104
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1704",
-        "stop_code": null,
-        "stop_name": "東澳"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.830683,
-          24.518221
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_5102",
-        "stop_code": null,
-        "stop_name": "沙崙"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.286371,
-          22.923953
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1706",
-        "stop_code": null,
-        "stop_name": "武塔"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.776037,
-          24.448674
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1227",
-        "stop_code": null,
-        "stop_name": "永康"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.253524,
-          23.038338
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1402",
-        "stop_code": null,
-        "stop_name": "鳳山"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.357683,
-          22.631284
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1606",
-        "stop_code": null,
-        "stop_name": "壽豐"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.510633,
-          23.869016
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_2206",
-        "stop_code": null,
-        "stop_name": "橫山"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.11645,
-          24.72056
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1411",
-        "stop_code": null,
-        "stop_name": "潮州"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.53642,
-          22.550086
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1613",
-        "stop_code": null,
-        "stop_name": "大富"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.389624,
-          23.605688
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_2703",
-        "stop_code": null,
-        "stop_name": "濁水"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.70472,
-          23.834666
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1030",
-        "stop_code": null,
-        "stop_name": "百福"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.693869,
-          25.077927
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1323",
-        "stop_code": null,
-        "stop_name": "太原"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.699717,
-          24.163634
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_2205",
-        "stop_code": null,
-        "stop_name": "竹東"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.0949,
-          24.738257
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1116",
-        "stop_code": null,
-        "stop_name": "龍井"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.543371,
-          24.197444
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1825",
-        "stop_code": null,
-        "stop_name": "新馬"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.8229,
-          24.615395
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1112",
-        "stop_code": null,
-        "stop_name": "大甲"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.627017,
-          24.34443
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1314",
-        "stop_code": null,
-        "stop_name": "泰安"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.741816,
-          24.331292
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1004",
-        "stop_code": null,
-        "stop_name": "五堵"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.667701,
-          25.078
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1414",
-        "stop_code": null,
-        "stop_name": "鎮安"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.511356,
-          22.457984
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1111",
-        "stop_code": null,
-        "stop_name": "日南"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.654119,
-          24.378066
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_2213",
-        "stop_code": null,
-        "stop_name": "新莊"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.022122,
-          24.788176
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1117",
-        "stop_code": null,
-        "stop_name": "大肚"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.542536,
-          24.154024
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_2209",
-        "stop_code": null,
-        "stop_name": "富貴"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.167377,
-          24.715559
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1711",
-        "stop_code": null,
-        "stop_name": "崇德"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.655498,
-          24.172116
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1113",
-        "stop_code": null,
-        "stop_name": "臺中港"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.602297,
-          24.304366
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1110",
-        "stop_code": null,
-        "stop_name": "苑裡"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.651494,
-          24.443426
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1504",
-        "stop_code": null,
-        "stop_name": "枋山"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.659647,
-          22.267067
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1315",
-        "stop_code": null,
-        "stop_name": "后里"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.732893,
-          24.309312
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_3202",
-        "stop_code": null,
-        "stop_name": "花蓮港"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.636083,
-          23.994013
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1708",
-        "stop_code": null,
-        "stop_name": "漢本"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.768355,
-          24.335428
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1203",
-        "stop_code": null,
-        "stop_name": "員林"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.56965,
-          23.959258
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1220",
-        "stop_code": null,
-        "stop_name": "新營"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.323055,
-          23.306732
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1630",
-        "stop_code": null,
-        "stop_name": "鹿野"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.137004,
-          22.912469
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1317",
-        "stop_code": null,
-        "stop_name": "豐原"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.723447,
-          24.254111
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1013",
-        "stop_code": null,
-        "stop_name": "山佳"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.392657,
-          24.972482
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_5101",
-        "stop_code": null,
-        "stop_name": "長榮大學"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.272176,
-          22.907187
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1602",
-        "stop_code": null,
-        "stop_name": "吉安"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.582699,
-          23.968179
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1202",
-        "stop_code": null,
-        "stop_name": "花壇"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.5374,
-          24.024997
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_2207",
-        "stop_code": null,
-        "stop_name": "九讚頭"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.13602,
-          24.720599
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1304",
-        "stop_code": null,
-        "stop_name": "豐富"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.826115,
-          24.604417
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1417",
-        "stop_code": null,
-        "stop_name": "東海"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.572381,
-          22.399005
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1015",
-        "stop_code": null,
-        "stop_name": "桃園"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.313499,
-          24.989209
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1003",
-        "stop_code": null,
-        "stop_name": "七堵"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.713868,
-          25.093359
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1240",
-        "stop_code": null,
-        "stop_name": "大村"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.560645,
-          23.990053
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1211",
-        "stop_code": null,
-        "stop_name": "斗南"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.480841,
-          23.672972
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1621",
-        "stop_code": null,
-        "stop_name": "東里"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.304181,
-          23.272309
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1322",
-        "stop_code": null,
-        "stop_name": "大慶"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.648571,
-          24.119304
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1207",
-        "stop_code": null,
-        "stop_name": "二水"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.618115,
-          23.81315
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1102",
-        "stop_code": null,
-        "stop_name": "談文"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.858241,
-          24.656414
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1244",
-        "stop_code": null,
-        "stop_name": "南科"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.301996,
-          23.107602
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1813",
-        "stop_code": null,
-        "stop_name": "大溪"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.889873,
-          24.938423
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1413",
-        "stop_code": null,
-        "stop_name": "南州"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.511738,
-          22.492058
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1403",
-        "stop_code": null,
-        "stop_name": "後庄"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.391125,
-          22.640067
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1622",
-        "stop_code": null,
-        "stop_name": "東竹"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.278481,
-          23.226025
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1009",
-        "stop_code": null,
-        "stop_name": "萬華"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.500331,
-          25.03335
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1905",
-        "stop_code": null,
-        "stop_name": "望古"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.763782,
-          25.03454
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1410",
-        "stop_code": null,
-        "stop_name": "竹田"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.540002,
-          22.586491
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_2707",
-        "stop_code": null,
-        "stop_name": "車埕"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.865745,
-          23.832637
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1810",
-        "stop_code": null,
-        "stop_name": "福隆"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.944659,
-          25.015893
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1415",
-        "stop_code": null,
-        "stop_name": "林邊"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.515376,
-          22.431406
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1210",
-        "stop_code": null,
-        "stop_name": "斗六"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.541146,
-          23.711813
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_2706",
-        "stop_code": null,
-        "stop_name": "水里"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.853323,
-          23.818456
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1008",
-        "stop_code": null,
-        "stop_name": "臺北"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.517047,
-          25.047503
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1232",
-        "stop_code": null,
-        "stop_name": "路竹"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.266275,
-          22.853948
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1006",
-        "stop_code": null,
-        "stop_name": "南港"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.607019,
-          25.05314
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1409",
-        "stop_code": null,
-        "stop_name": "西勢"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.526697,
-          22.616433
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1214",
-        "stop_code": null,
-        "stop_name": "民雄"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.431651,
-          23.555039
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1104",
-        "stop_code": null,
-        "stop_name": "大山"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.803778,
-          24.645645
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1241",
-        "stop_code": null,
-        "stop_name": "嘉北"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.448503,
-          23.499897
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1817",
-        "stop_code": null,
-        "stop_name": "頂埔"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.809207,
-          24.843998
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1629",
-        "stop_code": null,
-        "stop_name": "瑞源"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.159014,
-          22.955978
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_2214",
-        "stop_code": null,
-        "stop_name": "六家"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.039417,
-          24.807655
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1236",
+        "stop_id": "mrt_R16",
         "stop_code": null,
         "stop_name": "左營"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.294793,
-          22.675204
+          120.309219,
+          22.688073
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "stop_id": "tra_1407",
+        "stop_id": "mrt_R17",
         "stop_code": null,
-        "stop_name": "歸來"
+        "stop_name": "世運"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.502941,
-          22.65238
+          120.302526,
+          22.701622
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "stop_id": "tra_1624",
+        "stop_id": "mrt_R18",
         "stop_code": null,
-        "stop_name": "池上"
+        "stop_name": "油廠國小"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.21939,
-          23.126158
+          120.302325,
+          22.708479
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "stop_id": "tra_1208",
+        "stop_id": "mrt_R19",
         "stop_code": null,
-        "stop_name": "林內"
+        "stop_name": "楠梓加工區"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.614987,
-          23.759681
+          120.307133,
+          22.718671
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "stop_id": "tra_1206",
+        "stop_id": "mrt_R20",
         "stop_code": null,
-        "stop_name": "田中"
+        "stop_name": "後勁"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.591396,
-          23.858503
+          120.316236,
+          22.7223
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "stop_id": "tra_1005",
+        "stop_id": "mrt_R21",
         "stop_code": null,
-        "stop_name": "汐止"
+        "stop_name": "都會公園"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.661757,
-          25.068224
+          120.320978,
+          22.729403
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "stop_id": "tra_1017",
+        "stop_id": "mrt_R22",
         "stop_code": null,
-        "stop_name": "中壢"
+        "stop_name": "青埔"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.225798,
-          24.953666
+          120.317679,
+          22.744399
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "stop_id": "tra_1016",
+        "stop_id": "mrt_R22A",
         "stop_code": null,
-        "stop_name": "內壢"
+        "stop_name": "橋頭糖廠"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.258258,
-          24.972797
+          120.314466,
+          22.753398
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "stop_id": "tra_1904",
+        "stop_id": "mrt_R23",
         "stop_code": null,
-        "stop_name": "十分"
+        "stop_name": "橋頭火車站"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.775229,
-          25.040991
+          120.310936,
+          22.760452
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "stop_id": "tra_1239",
+        "stop_id": "mrt_R24",
         "stop_code": null,
-        "stop_name": "大橋"
+        "stop_name": "南岡山"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.22442,
-          23.019399
+          120.301774,
+          22.780544
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "stop_id": "tra_1205",
+        "stop_id": "mrt_O1",
         "stop_code": null,
-        "stop_name": "社頭"
+        "stop_name": "西子灣"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.5808,
-          23.89571
+          120.274541,
+          22.621544
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "stop_id": "tra_1023",
+        "stop_id": "mrt_O2",
         "stop_code": null,
-        "stop_name": "竹北"
+        "stop_name": "鹽埕埔"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.009376,
-          24.839283
+          120.283728,
+          22.623538
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "stop_id": "tra_1405",
+        "stop_id": "mrt_O4",
         "stop_code": null,
-        "stop_name": "六塊厝"
+        "stop_name": "市議會"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.464873,
-          22.666252
+          120.294886,
+          22.629002
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "stop_id": "tra_1626",
+        "stop_id": "mrt_O5",
         "stop_code": null,
-        "stop_name": "關山"
+        "stop_name": "美麗島"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.164373,
-          23.045665
+          120.301957,
+          22.631387
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "stop_id": "tra_1031",
+        "stop_id": "mrt_O6",
         "stop_code": null,
-        "stop_name": "汐科"
+        "stop_name": "信義國小"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.646584,
-          25.062626
+          120.311622,
+          22.630745
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "stop_id": "tra_1105",
+        "stop_id": "mrt_O7",
         "stop_code": null,
-        "stop_name": "後龍"
+        "stop_name": "文化中心"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.787307,
-          24.616212
+          120.317599,
+          22.630292
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "stop_id": "tra_1503",
+        "stop_id": "mrt_O8",
         "stop_code": null,
-        "stop_name": "內獅"
+        "stop_name": "五塊厝"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.643492,
-          22.306184
+          120.328381,
+          22.629331
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "stop_id": "tra_1822",
+        "stop_id": "mrt_O9",
         "stop_code": null,
-        "stop_name": "中里"
+        "stop_name": "技擊館"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.775163,
-          24.694192
+          120.334523,
+          22.627291
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "stop_id": "tra_1802",
+        "stop_id": "mrt_O10",
         "stop_code": null,
-        "stop_name": "暖暖"
+        "stop_name": "衛武營"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.740329,
-          25.102282
+          120.34095,
+          22.625162
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "stop_id": "tra_2208",
+        "stop_id": "mrt_O11",
         "stop_code": null,
-        "stop_name": "合興"
+        "stop_name": "鳳山西站"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.154403,
-          24.716746
+          120.348267,
+          22.625331
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "stop_id": "tra_1714",
+        "stop_id": "mrt_O12",
         "stop_code": null,
-        "stop_name": "北埔"
+        "stop_name": "鳳山"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.601671,
-          24.032533
+          120.355262,
+          22.625994
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "stop_id": "tra_1229",
+        "stop_id": "mrt_O13",
         "stop_code": null,
-        "stop_name": "保安"
+        "stop_name": "大東"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.231594,
-          22.93294
+          120.363384,
+          22.625197
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "stop_id": "tra_1019",
+        "stop_id": "mrt_O14",
         "stop_code": null,
-        "stop_name": "楊梅"
+        "stop_name": "鳳山國中"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.146405,
-          24.914346
+          120.372477,
+          22.624915
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "stop_id": "tra_1516",
+        "stop_id": "mrt_OT1",
         "stop_code": null,
-        "stop_name": "知本"
+        "stop_name": "大寮"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.060744,
-          22.710182
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1906",
-        "stop_code": null,
-        "stop_name": "嶺腳"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.748102,
-          25.030138
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1025",
-        "stop_code": null,
-        "stop_name": "新竹"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.971627,
-          24.801637
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1824",
-        "stop_code": null,
-        "stop_name": "冬山"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.792246,
-          24.636726
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1002",
-        "stop_code": null,
-        "stop_name": "八堵"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.729049,
-          25.108392
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1034",
-        "stop_code": null,
-        "stop_name": "南樹林"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.408796,
-          24.980485
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1035",
-        "stop_code": null,
-        "stop_name": "三姓橋"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.928937,
-          24.78755
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_6103",
-        "stop_code": null,
-        "stop_name": "海科館"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.800023,
-          25.137706
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1623",
-        "stop_code": null,
-        "stop_name": "富里"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.248692,
-          23.179132
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1907",
-        "stop_code": null,
-        "stop_name": "平溪"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.739984,
-          25.025633
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_1243",
-        "stop_code": null,
-        "stop_name": "仁德"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.240609,
-          22.923682
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "tra_2003",
-        "stop_code": null,
-        "stop_name": "八斗子"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.803199,
-          25.135392
+          120.389773,
+          22.622423
         ]
       }
     }
