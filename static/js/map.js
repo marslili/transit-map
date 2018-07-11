@@ -393,7 +393,7 @@ var simulation_manager = (function(){
                 }
                 
                 ts_now = d.getTime() / 1000;
-
+                
                 d.setHours(0);
                 d.setMinutes(0);
                 d.setSeconds(0);
@@ -408,6 +408,17 @@ var simulation_manager = (function(){
             
             var timeContainer = $('#day_time');
             
+            timeContainer.on("change",function(){
+                var new_time = timeContainer.val().split(":");
+                var sec = Number(new_time[0]) * 3600000 + Number(new_time[1]) * 60000 + Number(new_time[2]*1000);
+                var d = new Date(ts_now*1000); 
+                d.setHours(0);
+                d.setMinutes(0);
+                d.setSeconds(0);
+                d.setMilliseconds(0);
+                ts_now = (d.getTime()+sec)/1000;
+                
+            })
             function timeIncrement() {
                 var d_now = new Date(ts_now * 1000);
                 
@@ -419,9 +430,9 @@ var simulation_manager = (function(){
                     ts_minute = ts_minute_new;
                 }
                 
-                timeContainer.text(getHMS());
-                
+                timeContainer.val(getHMS());
                 ts_now += (timer_refresh / 1000) * seconds_multiply;
+                
                 setTimeout(timeIncrement, timer_refresh);
             }
             timeIncrement();
@@ -433,7 +444,7 @@ var simulation_manager = (function(){
         
         function getHMS(ts) {
             ts = ts || ts_now;
-
+            
             var d = new Date(ts * 1000);
             
             var hours = pad2Dec(d.getHours());
