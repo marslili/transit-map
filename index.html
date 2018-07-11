@@ -4,7 +4,7 @@
         <title>Swiss Railways Transit Map</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-timepicker/1.10.0/jquery.timepicker.min.css" rel="stylesheet" type="text/css" />
         <link href="static/css/reset.css" rel="stylesheet" type="text/css" />
         <link href="static/css/style.css" rel="stylesheet" type="text/css" />
     </head>
@@ -12,11 +12,11 @@
         <div id="map_canvas"></div>
         <div id="panel" class="hidden">
             <div>
-                <h3>Swiss Railways Map</h3>
+                <h3>Taiwan Railways Map</h3>
                 <p>Project information available on <a href="https://github.com/vasile/transit-map" target="_blank">Github</a></p>
             </div>
             <div class="section">
-                <b>Time:</b> <span id="day_time"></span> 
+                <b>Time:</b> <input type="text" id="day_time"></input> 
                 <select id="time_multiply">
                     <option value="1" selected="selected">1x</option>
                     <option value="5">5x</option>
@@ -84,8 +84,11 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
         <script src="http://maps.googleapis.com/maps/api/js?v=3.20&amp;sensor=false&amp;libraries=geometry,places"></script>
         <script type="text/javascript" src="http://maps.stamen.com/js/tile.stamen.js?v1.2.1"></script>
-        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-timepicker/1.10.0/jquery.timepicker.min.js"></script>
         <script src="static/js/infobox_packed.js"></script>
         <script src="static/js/map.js"></script>
+        <script>
+            $('#day_time').timepicker({ 'timeFormat': 'H:i:s' });
+        </script>
     </body>
 </html>
