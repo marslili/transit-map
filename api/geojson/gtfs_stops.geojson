@@ -3435,6 +3435,1071 @@
           25.135392
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "thsr_st_0990",
+        "stop_code": null,
+        "stop_name": "南港"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.607063,
+          25.053188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "thsr_st_1000",
+        "stop_code": null,
+        "stop_name": "台北"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.516983,
+          25.04767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "thsr_st_1010",
+        "stop_code": null,
+        "stop_name": "板橋"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.464592,
+          25.01387
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "thsr_st_1020",
+        "stop_code": null,
+        "stop_name": "桃園"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.214729,
+          25.012861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "thsr_st_1030",
+        "stop_code": null,
+        "stop_name": "新竹"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.04026,
+          24.808441
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "thsr_st_1035",
+        "stop_code": null,
+        "stop_name": "苗栗"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.825272,
+          24.605448
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "thsr_st_1040",
+        "stop_code": null,
+        "stop_name": "台中"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.615967,
+          24.112484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "thsr_st_1043",
+        "stop_code": null,
+        "stop_name": "彰化"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.574608,
+          23.874327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "thsr_st_1047",
+        "stop_code": null,
+        "stop_name": "雲林"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.416512,
+          23.736231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "thsr_st_1050",
+        "stop_code": null,
+        "stop_name": "嘉義"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.323257,
+          23.459507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "thsr_st_1060",
+        "stop_code": null,
+        "stop_name": "台南"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.286201,
+          22.925077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "thsr_st_1070",
+        "stop_code": null,
+        "stop_name": "左營"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.307487,
+          22.687391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_R3",
+        "stop_code": null,
+        "stop_name": "小港"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.35384,
+          22.564822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_R4",
+        "stop_code": null,
+        "stop_name": "高雄國際機場"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.342125,
+          22.570199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_R4A",
+        "stop_code": null,
+        "stop_name": "草衙"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.328443,
+          22.580363
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_R5",
+        "stop_code": null,
+        "stop_name": "前鎮高中"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.319551,
+          22.588356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_R6",
+        "stop_code": null,
+        "stop_name": "凱旋"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.315142,
+          22.596856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_R7",
+        "stop_code": null,
+        "stop_name": "獅甲"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.308189,
+          22.60587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_R8",
+        "stop_code": null,
+        "stop_name": "三多商圈"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.304499,
+          22.614011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_R9",
+        "stop_code": null,
+        "stop_name": "中央公園"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.301151,
+          22.624628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_R10",
+        "stop_code": null,
+        "stop_name": "美麗島"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.301957,
+          22.631387
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_R11",
+        "stop_code": null,
+        "stop_name": "高雄車站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.302664,
+          22.639769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_R12",
+        "stop_code": null,
+        "stop_name": "後驛"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.303361,
+          22.648314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_R13",
+        "stop_code": null,
+        "stop_name": "凹子底"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.303104,
+          22.657126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_R14",
+        "stop_code": null,
+        "stop_name": "巨蛋"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.303308,
+          22.666135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_R15",
+        "stop_code": null,
+        "stop_name": "生態園區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.306618,
+          22.676738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_R16",
+        "stop_code": null,
+        "stop_name": "左營"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.309219,
+          22.688073
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_R17",
+        "stop_code": null,
+        "stop_name": "世運"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.302526,
+          22.701622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_R18",
+        "stop_code": null,
+        "stop_name": "油廠國小"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.302325,
+          22.708479
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_R19",
+        "stop_code": null,
+        "stop_name": "楠梓加工區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.307133,
+          22.718671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_R20",
+        "stop_code": null,
+        "stop_name": "後勁"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.316236,
+          22.7223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_R21",
+        "stop_code": null,
+        "stop_name": "都會公園"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.320978,
+          22.729403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_R22",
+        "stop_code": null,
+        "stop_name": "青埔"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.317679,
+          22.744399
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_R22A",
+        "stop_code": null,
+        "stop_name": "橋頭糖廠"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.314466,
+          22.753398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_R23",
+        "stop_code": null,
+        "stop_name": "橋頭火車站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.310936,
+          22.760452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_R24",
+        "stop_code": null,
+        "stop_name": "南岡山"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.301774,
+          22.780544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_O1",
+        "stop_code": null,
+        "stop_name": "西子灣"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.274541,
+          22.621544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_O2",
+        "stop_code": null,
+        "stop_name": "鹽埕埔"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.283728,
+          22.623538
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_O4",
+        "stop_code": null,
+        "stop_name": "市議會"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.294886,
+          22.629002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_O5",
+        "stop_code": null,
+        "stop_name": "美麗島"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.301957,
+          22.631387
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_O6",
+        "stop_code": null,
+        "stop_name": "信義國小"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.311622,
+          22.630745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_O7",
+        "stop_code": null,
+        "stop_name": "文化中心"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.317599,
+          22.630292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_O8",
+        "stop_code": null,
+        "stop_name": "五塊厝"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.328381,
+          22.629331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_O9",
+        "stop_code": null,
+        "stop_name": "技擊館"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.334523,
+          22.627291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_O10",
+        "stop_code": null,
+        "stop_name": "衛武營"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.34095,
+          22.625162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_O11",
+        "stop_code": null,
+        "stop_name": "鳳山西站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.348267,
+          22.625331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_O12",
+        "stop_code": null,
+        "stop_name": "鳳山"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.355262,
+          22.625994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_O13",
+        "stop_code": null,
+        "stop_name": "大東"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.363384,
+          22.625197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_O14",
+        "stop_code": null,
+        "stop_name": "鳳山國中"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.372477,
+          22.624915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_OT1",
+        "stop_code": null,
+        "stop_name": "大寮"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.389773,
+          22.622423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_A1",
+        "stop_code": null,
+        "stop_name": "台北車站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.514,
+          25.048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_A2",
+        "stop_code": null,
+        "stop_name": "三重站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.482,
+          25.054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_A3",
+        "stop_code": null,
+        "stop_name": "新北產業園區站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.459,
+          25.061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_A4",
+        "stop_code": null,
+        "stop_name": "新莊副都心站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.445,
+          25.059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_A5",
+        "stop_code": null,
+        "stop_name": "泰山站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.439,
+          25.052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_A6",
+        "stop_code": null,
+        "stop_name": "泰山貴和站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.422,
+          25.033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_A7",
+        "stop_code": null,
+        "stop_name": "體育大學站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.385,
+          25.041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_A8",
+        "stop_code": null,
+        "stop_name": "長庚醫院站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.37,
+          25.061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_A9",
+        "stop_code": null,
+        "stop_name": "林口站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.362,
+          25.066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_A10",
+        "stop_code": null,
+        "stop_name": "山鼻站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.286,
+          25.081
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_A11",
+        "stop_code": null,
+        "stop_name": "坑口站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.266,
+          25.086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_A12",
+        "stop_code": null,
+        "stop_name": "機場第一航廈站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.239,
+          25.082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_A13",
+        "stop_code": null,
+        "stop_name": "機場第二航廈站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.232,
+          25.077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_A14a",
+        "stop_code": null,
+        "stop_name": "機場旅館站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.221,
+          25.069
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_A15",
+        "stop_code": null,
+        "stop_name": "大園站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.211,
+          25.056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_A16",
+        "stop_code": null,
+        "stop_name": "橫山站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.216,
+          25.037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_A17",
+        "stop_code": null,
+        "stop_name": "領航站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.221,
+          25.024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_A18",
+        "stop_code": null,
+        "stop_name": "高鐵桃園站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.214,
+          25.014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_A19",
+        "stop_code": null,
+        "stop_name": "桃園體育園區站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.203,
+          25.002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_A20",
+        "stop_code": null,
+        "stop_name": "興南站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.216,
+          24.98
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "mrt_A21",
+        "stop_code": null,
+        "stop_name": "環北站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.221,
+          24.967
+        ]
+      }
     }
   ]
 }
