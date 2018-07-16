@@ -607,9 +607,7 @@ var simulation_manager = (function(){
             $('.vehicle_name', $('#vehicle_info')).text(vehicle.name + ' (' + vehicle.id + ')');
             
             var route_config = config.getParam('routes')[vehicle.route_icon];
-            console.log(route_config);
-            console.log(config);
-            console.log(config.getParam("routes"));
+            
 
             if (route_config) {
                 $('.vehicle_name', $('#vehicle_info')).css('background-color', route_config.route_color);
@@ -1453,8 +1451,7 @@ var simulation_manager = (function(){
                 speed: null,
                 status: 'not on map'
             });
-            // console.log(this.route_icon_type);
-            // console.log(this.route_icon_type2);
+            
             
             var icon = imagesPool.iconGet(this.route_icon, this.route_icon_type2);
             if (icon !== null) {
