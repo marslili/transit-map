@@ -36,43 +36,55 @@
       "route_text_color": "#FFFFFF"
     },
     "A": {
-      "icon": "static/images/route_icons/A.png",
+      "icon": {"1":"static/images/route_icons/ty普.png","2":"static/images/route_icons/ty直.png"},
       "route_short_name": "A",
       "route_color": "#7B49DE",
       "route_text_color": "#FFFFFF"
     },
     "CZ": {
-      "icon": "static/images/route_icons/CZ.png",
+      "icon": {
+        "1":"static/images/route_icons/自.png",
+        "2":"static/images/route_icons/莒.png",
+        "3":"static/images/route_icons/復.png",
+        "4":"static/images/route_icons/區.png",
+        "5":"static/images/route_icons/區.png",
+        "6":"static/images/route_icons/普.png"},
       "route_short_name": "CZ",
       "route_color": "#090980",
       "route_text_color": "#FFFFFF"
     },
     "EL": {
-      "icon": "static/images/route_icons/EL.png",
+      "icon":{
+        "1":"static/images/route_icons/自.png",
+        "2":"static/images/route_icons/莒.png",
+        "3":"static/images/route_icons/復.png",
+        "4":"static/images/route_icons/區.png",
+        "5":"static/images/route_icons/區.png",
+        "6":"static/images/route_icons/普.png"},
       "route_short_name": "EL",
       "route_color": "#090980",
       "route_text_color": "#FFFFFF"
     },
     "JJ": {
-      "icon": "static/images/route_icons/JJ.png",
+      "icon": {"1":"static/images/route_icons/自.png","2":"static/images/route_icons/莒.png","3":"static/images/route_icons/復.png","4":"static/images/route_icons/區.png","5":"static/images/route_icons/區.png","6":"static/images/route_icons/普.png"},
       "route_short_name": "JJ",
       "route_color": "#090980",
       "route_text_color": "#FFFFFF"
     },
     "LJ": {
-      "icon": "static/images/route_icons/LJ.png",
+      "icon": {"1":"static/images/route_icons/自.png","2":"static/images/route_icons/莒.png","3":"static/images/route_icons/復.png","4":"static/images/route_icons/區.png","5":"static/images/route_icons/區.png","6":"static/images/route_icons/普.png"},
       "route_short_name": "LJ",
       "route_color": "#090980",
       "route_text_color": "#FFFFFF"
     },
     "NL": {
-      "icon": "static/images/route_icons/NL.png",
+      "icon": {"1":"static/images/route_icons/自.png","2":"static/images/route_icons/莒.png","3":"static/images/route_icons/復.png","4":"static/images/route_icons/區.png","5":"static/images/route_icons/區.png","6":"static/images/route_icons/普.png"},
       "route_short_name": "NL",
       "route_color": "#090980",
       "route_text_color": "#FFFFFF"
     },
     "NW": {
-      "icon": "static/images/route_icons/NW.png",
+      "icon": {"1":"static/images/route_icons/自.png","2":"static/images/route_icons/莒.png","3":"static/images/route_icons/復.png","4":"static/images/route_icons/區.png","5":"static/images/route_icons/區.png","6":"static/images/route_icons/普.png"},
       "route_short_name": "NW",
       "route_color": "#090980",
       "route_text_color": "#FFFFFF"
@@ -84,19 +96,19 @@
       "route_text_color": "#FFFFFF"
     },
     "OM": {
-      "icon": "static/images/route_icons/OM.png",
+      "icon": {"1":"static/images/route_icons/自.png","2":"static/images/route_icons/莒.png","3":"static/images/route_icons/復.png","4":"static/images/route_icons/區.png","5":"static/images/route_icons/區.png","6":"static/images/route_icons/普.png"},
       "route_short_name": "OM",
       "route_color": "#090980",
       "route_text_color": "#FFFFFF"
     },
     "PL": {
-      "icon": "static/images/route_icons/PL.png",
+      "icon": {"1":"static/images/route_icons/自.png","2":"static/images/route_icons/莒.png","3":"static/images/route_icons/復.png","4":"static/images/route_icons/區.png","5":"static/images/route_icons/區.png","6":"static/images/route_icons/普.png"},
       "route_short_name": "PL",
       "route_color": "#090980",
       "route_text_color": "#FFFFFF"
     },
     "PX": {
-      "icon": "static/images/route_icons/PX.png",
+      "icon": {"1":"static/images/route_icons/自.png","2":"static/images/route_icons/莒.png","3":"static/images/route_icons/復.png","4":"static/images/route_icons/區.png","5":"static/images/route_icons/區.png","6":"static/images/route_icons/普.png"},
       "route_short_name": "PX",
       "route_color": "#090980",
       "route_text_color": "#FFFFFF"
@@ -108,79 +120,79 @@
       "route_text_color": "#FFFFFF"
     },
     "SA": {
-      "icon": "static/images/route_icons/SA.png",
+      "icon": {"1":"static/images/route_icons/自.png","2":"static/images/route_icons/莒.png","3":"static/images/route_icons/復.png","4":"static/images/route_icons/區.png","5":"static/images/route_icons/區.png","6":"static/images/route_icons/普.png"},
       "route_short_name": "SA",
       "route_color": "#090980",
       "route_text_color": "#FFFFFF"
     },
     "SH": {
-      "icon": "static/images/route_icons/SH.png",
+      "icon": {"1":"static/images/route_icons/自.png","2":"static/images/route_icons/莒.png","3":"static/images/route_icons/復.png","4":"static/images/route_icons/區.png","5":"static/images/route_icons/區.png","6":"static/images/route_icons/普.png"},
       "route_short_name": "SH",
       "route_color": "#090980",
       "route_text_color": "#FFFFFF"
     },
     "SL": {
-      "icon": "static/images/route_icons/SL.png",
+      "icon": {"1":"static/images/route_icons/自.png","2":"static/images/route_icons/莒.png","3":"static/images/route_icons/復.png","4":"static/images/route_icons/區.png","5":"static/images/route_icons/區.png","6":"static/images/route_icons/普.png"},
       "route_short_name": "SL",
       "route_color": "#090980",
       "route_text_color": "#FFFFFF"
     },
     "TL": {
-      "icon": "static/images/route_icons/TL.png",
+      "icon": {"1":"static/images/route_icons/自.png","2":"static/images/route_icons/莒.png","3":"static/images/route_icons/復.png","4":"static/images/route_icons/區.png","5":"static/images/route_icons/區.png","6":"static/images/route_icons/普.png"},
       "route_short_name": "TL",
       "route_color": "#090980",
       "route_text_color": "#FFFFFF"
     },
     "TL_C": {
-      "icon": "static/images/route_icons/TL_C.png",
+      "icon": {"1":"static/images/route_icons/自.png","2":"static/images/route_icons/莒.png","3":"static/images/route_icons/復.png","4":"static/images/route_icons/區.png","5":"static/images/route_icons/區.png","6":"static/images/route_icons/普.png"},
       "route_short_name": "TL_C",
       "route_color": "#090980",
       "route_text_color": "#FFFFFF"
     },
     "TL_M": {
-      "icon": "static/images/route_icons/TL_M.png",
+      "icon": {"1":"static/images/route_icons/自.png","2":"static/images/route_icons/莒.png","3":"static/images/route_icons/復.png","4":"static/images/route_icons/區.png","5":"static/images/route_icons/區.png","6":"static/images/route_icons/普.png"},
       "route_short_name": "TL_M",
       "route_color": "#090980",
       "route_text_color": "#FFFFFF"
     },
     "TL_N": {
-      "icon": "static/images/route_icons/TL_N.png",
+      "icon": {"1":"static/images/route_icons/自.png","2":"static/images/route_icons/莒.png","3":"static/images/route_icons/復.png","4":"static/images/route_icons/區.png","5":"static/images/route_icons/區.png","6":"static/images/route_icons/普.png"},
       "route_short_name": "TL_N",
       "route_color": "#090980",
       "route_text_color": "#FFFFFF"
     },
     "TL_S": {
-      "icon": "static/images/route_icons/TL_S.png",
+      "icon": {"1":"static/images/route_icons/自.png","2":"static/images/route_icons/莒.png","3":"static/images/route_icons/復.png","4":"static/images/route_icons/區.png","5":"static/images/route_icons/區.png","6":"static/images/route_icons/普.png"},
       "route_short_name": "TL_S",
       "route_color": "#090980",
       "route_text_color": "#FFFFFF"
     },
     "TT": {
-      "icon": "static/images/route_icons/TT.png",
+      "icon": {"1":"static/images/route_icons/自.png","2":"static/images/route_icons/莒.png","3":"static/images/route_icons/復.png","4":"static/images/route_icons/區.png","5":"static/images/route_icons/區.png","6":"static/images/route_icons/普.png"},
       "route_short_name": "TT",
       "route_color": "#090980",
       "route_text_color": "#FFFFFF"
     },
     "WL": {
-      "icon": "static/images/route_icons/WL.png",
+      "icon": {"1":"static/images/route_icons/自.png","2":"static/images/route_icons/莒.png","3":"static/images/route_icons/復.png","4":"static/images/route_icons/區.png","5":"static/images/route_icons/區.png","6":"static/images/route_icons/普.png"},
       "route_short_name": "WL",
       "route_color": "#090980",
       "route_text_color": "#FFFFFF"
     },
     "WL_C": {
-      "icon": "static/images/route_icons/WL_C.png",
+      "icon": {"1":"static/images/route_icons/自.png","2":"static/images/route_icons/莒.png","3":"static/images/route_icons/復.png","4":"static/images/route_icons/區.png","5":"static/images/route_icons/區.png","6":"static/images/route_icons/普.png"},
       "route_short_name": "WL_C",
       "route_color": "#090980",
       "route_text_color": "#FFFFFF"
     },
     "WL_M": {
-      "icon": "static/images/route_icons/WL_M.png",
+      "icon": {"1":"static/images/route_icons/自.png","2":"static/images/route_icons/莒.png","3":"static/images/route_icons/復.png","4":"static/images/route_icons/區.png","5":"static/images/route_icons/區.png","6":"static/images/route_icons/普.png"},
       "route_short_name": "WL_M",
       "route_color": "#090980",
       "route_text_color": "#FFFFFF"
     },
     "YL": {
-      "icon": "static/images/route_icons/YL.png",
+      "icon": {"1":"static/images/route_icons/自.png","2":"static/images/route_icons/莒.png","3":"static/images/route_icons/復.png","4":"static/images/route_icons/區.png","5":"static/images/route_icons/區.png","6":"static/images/route_icons/普.png"},
       "route_short_name": "YL",
       "route_color": "#090980",
       "route_text_color": "#FFFFFF"

@@ -607,6 +607,10 @@ var simulation_manager = (function(){
             $('.vehicle_name', $('#vehicle_info')).text(vehicle.name + ' (' + vehicle.id + ')');
             
             var route_config = config.getParam('routes')[vehicle.route_icon];
+            console.log(route_config);
+            console.log(config);
+            console.log(config.getParam("routes"));
+
             if (route_config) {
                 $('.vehicle_name', $('#vehicle_info')).css('background-color', route_config.route_color);
                 $('.vehicle_name', $('#vehicle_info')).css('color', route_config.route_text_color);
@@ -1187,11 +1191,14 @@ var simulation_manager = (function(){
         var imagesPool = (function(){
             var icons = {};
 
-            function iconGet(type) {
-                if (icons[type]) {
-                    return icons[type];
+            function iconGet(type,cartype) {
+                var railtype = railtype || null;
+                var cartype = cartype || null;
+                var type2 = type+"_"+cartype;
+                if (icons[type2]) {
+                  return icons[type2];
                 }
-
+                
                 var routes_config = config.getParam('routes');
                 if ((typeof routes_config[type]) === 'undefined') {
                     return null;
@@ -1200,8 +1207,16 @@ var simulation_manager = (function(){
                 if (routes_config[type].icon === false) {
                     return null;
                 }
-
-                var url = routes_config[type].icon;
+                if (type != "R" && type != "O" && type != "701" && type!="A" && cartype !=="undefined") {
+                    
+                    var url = routes_config[type].icon[cartype];
+                    
+                } else if( type=="A" && cartype !== "undefined"){
+                    
+                    var url = routes_config[type].icon[cartype];
+                } else {
+                    var url = routes_config[type].icon;
+                }
 
                 var icon = {
                     url: url,
@@ -1209,7 +1224,7 @@ var simulation_manager = (function(){
                     origin: new google.maps.Point(0, 0),
                     anchor: new google.maps.Point(10, 10)
                 };
-                icons[type] = icon;
+                icons[type2] = icon;
 
                 return icon;
             }
@@ -1428,6 +1443,8 @@ var simulation_manager = (function(){
                 this.shape_percent      = shape_percent;
 
                 this.route_icon         = params.route_short_name;
+                this.route_icon_type    = params.trip_id.split('_')[0];
+                this.route_icon_type2   = params.trip_id.split("_")[2];
             }
             
             var marker = new google.maps.Marker({
@@ -1436,7 +1453,10 @@ var simulation_manager = (function(){
                 speed: null,
                 status: 'not on map'
             });
-            var icon = imagesPool.iconGet(this.route_icon);
+            // console.log(this.route_icon_type);
+            // console.log(this.route_icon_type2);
+            
+            var icon = imagesPool.iconGet(this.route_icon, this.route_icon_type2);
             if (icon !== null) {
                 marker.setIcon(icon);
             }
