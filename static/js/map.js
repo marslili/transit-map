@@ -607,7 +607,6 @@ var simulation_manager = (function(){
             $('.vehicle_name', $('#vehicle_info')).text(vehicle.name + ' (' + vehicle.id + ')');
             
             var route_config = config.getParam('routes')[vehicle.route_icon];
-            
 
             if (route_config) {
                 $('.vehicle_name', $('#vehicle_info')).css('background-color', route_config.route_color);
