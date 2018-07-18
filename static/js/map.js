@@ -1511,7 +1511,6 @@ var simulation_manager = (function(){
         Vehicle.prototype.render = function() {
             // TODO - FIXME .apply
             var that = this;    
-            console.log(that);
             
             function animate() {
                 var ts = timer.getTS();
@@ -1607,7 +1606,6 @@ var simulation_manager = (function(){
             var render_in_detail = data.is_detailed && (service_parts !== null);
             var vehicle_position = data.position;
             this.marker.setPosition(data.position);
-            // console.log(vehicle_position);
             if (render_in_detail) {
                 if (this.marker.getMap() !== null) {
                     this.marker.setMap(null);
