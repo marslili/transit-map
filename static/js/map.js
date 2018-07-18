@@ -1470,7 +1470,6 @@ var simulation_manager = (function(){
 
             google.maps.event.addListener(marker, 'click', function() {
                 simulation_panel.displayVehicle(that);
-                console.log(marker);
             });
 
             this.mouseOverMarker = function() {
