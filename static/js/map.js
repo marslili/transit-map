@@ -1,5 +1,6 @@
 /*global $, google, InfoBox */
 var simulation_manager = (function(){
+    
     google.maps.visualRefresh = true;
 
     var ua_is_mobile = navigator.userAgent.indexOf('iPhone') !== -1 || navigator.userAgent.indexOf('Android') !== -1;
@@ -417,6 +418,8 @@ var simulation_manager = (function(){
                 d.setSeconds(0);
                 d.setMilliseconds(0);
                 ts_now = (d.getTime()+sec)/1000;
+                
+                vehicle_helpers.load();
                 
             })
             function timeIncrement() {
@@ -1168,13 +1171,13 @@ var simulation_manager = (function(){
                     type: config.getParam('vehicle_type'),
                     edges: []
                 };
-                
+                console.log(vehicle_data);
                 var v = new Vehicle(vehicle_data);
                 simulation_vehicles[vehicle_data.id] = v;
                 v.render();
                 
-                simulation_panel.displayVehicle(v);
-                simulation_panel.followVehicle(v);
+                // simulation_panel.displayVehicle(v);
+                // simulation_panel.followVehicle(v);
             });
             
             return {
@@ -1364,6 +1367,7 @@ var simulation_manager = (function(){
                         }                        
 
                         time_ar.push(time);
+                        console.log(time_ar);
                         return;
                     }
                     
@@ -1372,6 +1376,7 @@ var simulation_manager = (function(){
                         time = timer.getHMS2TS(time);
                         
                         time_ar.push(time);
+                        
                         return;
                     }
                     
@@ -1465,6 +1470,7 @@ var simulation_manager = (function(){
 
             google.maps.event.addListener(marker, 'click', function() {
                 simulation_panel.displayVehicle(that);
+                console.log(marker);
             });
 
             this.mouseOverMarker = function() {
@@ -1505,84 +1511,89 @@ var simulation_manager = (function(){
         }
         Vehicle.prototype.render = function() {
             // TODO - FIXME .apply
-            var that = this;
+            var that = this;    
+            console.log(that);
             
             function animate() {
                 var ts = timer.getTS();
-
+                
                 var vehicle_position = null;
                 var route_percent = 0;
                 var d_AC = 0;
                 var animation_timeout = 1000;
-
-                for (var i=0; i<that.arrS.length; i++) {
+                if (ts < that.arrS[0]) {
+                  that.marker.setMap(null);
+                } else {
+                  for (var i = 0; i < that.arrS.length; i++) {
                     if (ts < that.arrS[i]) {
-                        var station_a = that.stations[i];
-                        var station_b = that.stations[i+1];
+                      var station_a = that.stations[i];
+                      var station_b = that.stations[i + 1];
 
-                        var route_id = (that.source === 'gtfs') ? that.shape_id : that.edges[i+1];
-                        var speed = that.marker.get('speed');
-                        if (ts > that.depS[i]) {
-                            var routeLength = linesPool.lengthGet(route_id);
-                            
-                            // Vehicle is in motion between two stations
-                            if ((speed === 0) || (speed === null)) {
-                                var trackLength = routeLength;
-                                if (that.source === 'gtfs') {
-                                    trackLength = routeLength * (that.shape_percent[i+1] - that.shape_percent[i]) / 100;
-                                }
-                                
-                                var speed = trackLength * 0.001 * 3600 / (that.arrS[i] - that.depS[i]);
-                                that.marker.set('speed', parseInt(speed, 10));
-                                that.marker.set('status', 'Heading to ' + stationsPool.get(station_b) + '(' + timer.getHM(that.arrS[i]) + ')<br/>Speed: ' + that.marker.get('speed') + ' km/h');
-                            }
-                            
-                            route_percent = (ts - that.depS[i])/(that.arrS[i] - that.depS[i]);
-                            if (that.source === 'gtfs') {
-                                route_percent = (that.shape_percent[i] + route_percent * (that.shape_percent[i+1] - that.shape_percent[i])) / 100;
-                            }
-                            
-                            d_AC = routeLength * route_percent;
-                        } else {
-                            // Vehicle is in a station
-                            if ((speed !== 0) || (speed === null)) {
-                                that.marker.set('status', 'Departing ' + stationsPool.get(station_a) + ' at ' + timer.getHM(that.depS[i]));
-                                that.marker.set('speed', 0);
-                            }
+                      var route_id = that.source === "gtfs" ? that.shape_id : that.edges[i + 1];
+                      var speed = that.marker.get("speed");
+                      if (ts > that.depS[i]) {
+                        var routeLength = linesPool.lengthGet(route_id);
 
-                            if (that.source === 'gtfs') {
-                                route_percent = that.shape_percent[i] / 100;
-                            }
-                        }
-                        
-                        var vehicle_position_data = linesPool.positionGet(route_id, route_percent);
-                        if (vehicle_position_data === null) {
-                            break;
+                        // Vehicle is in motion between two stations
+                        if (speed === 0 || speed === null) {
+                          var trackLength = routeLength;
+                          if (that.source === "gtfs") {
+                            trackLength = routeLength * (that.shape_percent[i + 1] - that.shape_percent[i]) / 100;
+                          }
+
+                          var speed = trackLength * 0.001 * 3600 / (that.arrS[i] - that.depS[i]);
+                          that.marker.set("speed", parseInt(speed, 10));
+                          that.marker.set("status", "Heading to " + stationsPool.get(station_b) + "(" + timer.getHM(that.arrS[i]) + ")<br/>Speed: " + that.marker.get("speed") + " km/h");
                         }
 
-                        var vehicle_position = vehicle_position_data.position;
-                        
-                        if (that.marker.get('follow') === 'yes-init') {
-                            that.marker.set('follow', 'yes');
-                            
-                            map.panTo(vehicle_position);
-                            if (map.getZoom() < config.getParam('zoom.vehicle_follow')) {
-                                map.setZoom(config.getParam('zoom.vehicle_follow'));
-                            }
-                            map.setMapTypeId(google.maps.MapTypeId.SATELLITE);
+                        route_percent = (ts - that.depS[i]) / (that.arrS[i] - that.depS[i]);
+                        if (that.source === "gtfs") {
+                          route_percent = (that.shape_percent[i] + route_percent * (that.shape_percent[i + 1] - that.shape_percent[i])) / 100;
+                        }
 
-                            map.bindTo('center', that.marker, 'position');
+                        d_AC = routeLength * route_percent;
+                      } else {
+                        // Vehicle is in a station
+                        if (speed !== 0 || speed === null) {
+                          that.marker.set("status", "Departing " + stationsPool.get(station_a) + " at " + timer.getHM(that.depS[i]));
+                          that.marker.set("speed", 0);
                         }
-                        
-                        that.updateIcon(vehicle_position_data, d_AC, i);
-                        if (map.getZoom() >= 12) {
-                            animation_timeout = timer.getRefreshValue();
+
+                        if (that.source === "gtfs") {
+                          route_percent = that.shape_percent[i] / 100;
                         }
-                        
-                        setTimeout(animate, animation_timeout);
+                      }
+
+                      var vehicle_position_data = linesPool.positionGet(route_id, route_percent);
+                      if (vehicle_position_data === null) {
                         break;
+                      }
+
+                      var vehicle_position = vehicle_position_data.position;
+
+                      if (that.marker.get("follow") === "yes-init") {
+                        that.marker.set("follow", "yes");
+
+                        map.panTo(vehicle_position);
+                        if (map.getZoom() < config.getParam("zoom.vehicle_follow")) {
+                          map.setZoom(config.getParam("zoom.vehicle_follow"));
+                        }
+                        map.setMapTypeId(google.maps.MapTypeId.SATELLITE);
+
+                        map.bindTo("center", that.marker, "position");
+                      }
+
+                      that.updateIcon(vehicle_position_data, d_AC, i);
+                      if (map.getZoom() >= 12) {
+                        animation_timeout = timer.getRefreshValue();
+                      }
+
+                      setTimeout(animate, animation_timeout);
+                      break;
                     }
-                } // end arrivals loop
+                  } // end arrivals loop
+                }
+                
 
                 if (vehicle_position === null) {
                     that.marker.setMap(null);
@@ -1597,7 +1608,7 @@ var simulation_manager = (function(){
             var render_in_detail = data.is_detailed && (service_parts !== null);
             var vehicle_position = data.position;
             this.marker.setPosition(data.position);
-            
+            // console.log(vehicle_position);
             if (render_in_detail) {
                 if (this.marker.getMap() !== null) {
                     this.marker.setMap(null);
