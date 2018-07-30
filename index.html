@@ -12,8 +12,11 @@
         <div id="map_canvas"></div>
         <div id="panel" class="hidden">
             <div>
-                <h3>Taiwan Railways Map</h3>
+                <h3>Taiwan Railways Map </h3>
                 <p>Project information available on <a href="https://github.com/vasile/transit-map" target="_blank">Github</a></p>
+                <p>Datasource from <a href="https://ptx.transportdata.tw/PTX" target="_blank">PTX</a></p>
+                <p>Generate GTFS by <a href="https://www.facebook.com/Innovation4Data/?ref=br_rs" target="_blank">創代科技</a></p>
+		<p>Last Update time:2018-07-30</p>
             </div>
             <div class="section">
                 <b>Time:</b> <input type="text" id="day_time"></input> 
@@ -24,8 +27,9 @@
                     <option value="100">100x</option>
                 </select>
                 <br/>
+                <!--
                 <input type="button" id="geolocation_click" />
-                <input type="text" id="user_location" / >
+                <input type="text" id="user_location" / >-->
             </div>
             <div id="vehicle_info" class="hidden section" data-type="panel">
                 <div>
@@ -86,7 +90,7 @@
         <script type="text/javascript" src="http://maps.stamen.com/js/tile.stamen.js?v1.2.1"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-timepicker/1.10.0/jquery.timepicker.min.js"></script>
         <script src="static/js/infobox_packed.js"></script>
-        <script src="static/js/map.js?V=23223"></script>
+        <script src="static/js/map.js?V=233223"></script>
         <script>
             $('#day_time').timepicker({ 'timeFormat': 'H:i:s' });
         </script>
