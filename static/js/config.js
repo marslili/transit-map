@@ -2,7 +2,7 @@
   "center.x": 120.96,
   "center.y": 23.91,
   "map_type_id": "roadmap",
-  "zoom.start": 10,
+  "zoom.start": 9,
   "zoom.min": 7,
   "zoom.max": 20,
   "zoom.to_stops": 17,
