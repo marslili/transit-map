@@ -21,9 +21,9 @@
             <div class="section">
                 <b>Time:</b> <input type="text" id="day_time"></input> 
                 <select id="time_multiply">
-                    <option value="1" selected="selected">1x</option>
+                    <option value="1">1x</option>
                     <option value="5">5x</option>
-                    <option value="10">10x</option>
+                    <option value="10" selected="selected">10x</option>
                     <option value="100">100x</option>
                 </select>
                 <br/>
@@ -90,9 +90,9 @@
         <script type="text/javascript" src="static/js/tile.stamen.js?v1.2.1"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-timepicker/1.10.0/jquery.timepicker.min.js"></script>
         <script src="static/js/infobox_packed.js"></script>
-        <script src="static/js/map.js?V=233223"></script>
+        <script src="static/js/map.js?V=2332223"></script>
         <script>
-            $('#day_time').timepicker({ 'timeFormat': 'H:i:s' });
+            $('#day_time').timepicker({ 'timeFormat': 'H:i:s' ,'step':'60'});
         </script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->

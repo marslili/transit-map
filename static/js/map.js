@@ -393,12 +393,13 @@ var simulation_manager = (function(){
                     }
                 }
                 
-                ts_now = d.getTime() / 1000;
+                // ts_now = d.getTime() / 1000;
                 
                 d.setHours(0);
                 d.setMinutes(0);
                 d.setSeconds(0);
                 d.setMilliseconds(0);
+                ts_now=(d.getTime()+(8*3600000))/1000;
                 ts_midnight = d.getTime() / 1000;
             })();
             
@@ -820,43 +821,45 @@ var simulation_manager = (function(){
         var extended_bounds = null;
         
         function init(){
-            var mapStyles = [
-              {
-                featureType: "poi.business",
-                stylers: [
-                  { visibility: "off" }
-                ]
-              },{
-                featureType: "road",
-                elementType: "labels",
-                stylers: [
-                  { visibility: "off" }
-                ]
-              },{
-                featureType: "road",
-                elementType: "labels",
-                stylers: [
-                  { visibility: "off" }
-                ]
-              },{
-                featureType: "road",
-                elementType: "geometry",
-                stylers: [
-                  { visibility: "simplified" },
-                  { lightness: 70 }
-                ]
-              },{
-                featureType: "transit.line",
-                stylers: [
-                  { visibility: "off" }
-                ]
-              },{
-                featureType: "transit.station.bus",
-                stylers: [
-                  { visibility: "off" }
-                ]
-              }
-            ];
+            var mapStyles = [{ featureType: "all", elementType: "labels.text.fill", stylers: [{ saturation: 36 }, { color: "#000000" }, { lightness: 40 }] }, { featureType: "all", elementType: "labels.text.stroke", stylers: [{ visibility: "on" }, { color: "#000000" }, { lightness: 16 }] }, { featureType: "all", elementType: "labels.icon", stylers: [{ visibility: "off" }] }, { featureType: "administrative", elementType: "geometry.fill", stylers: [{ color: "#000000" }, { lightness: 20 }] }, { featureType: "administrative", elementType: "geometry.stroke", stylers: [{ color: "#000000" }, { lightness: 17 }, { weight: 1.2 }] }, { featureType: "landscape", elementType: "geometry", stylers: [{ color: "#000000" }, { lightness: 20 }] }, { featureType: "poi", elementType: "geometry", stylers: [{ color: "#000000" }, { lightness: 21 }] }, { featureType: "road.highway", elementType: "geometry.fill", stylers: [{ color: "#000000" }, { lightness: 17 }] }, { featureType: "road.highway", elementType: "geometry.stroke", stylers: [{ color: "#000000" }, { lightness: 29 }, { weight: 0.2 }] }, { featureType: "road.arterial", elementType: "geometry", stylers: [{ color: "#000000" }, { lightness: 18 }] }, { featureType: "road.local", elementType: "geometry", stylers: [{ color: "#000000" }, { lightness: 16 }] }, { featureType: "transit", elementType: "geometry", stylers: [{ color: "#000000" }, { lightness: 19 }] }, { featureType: "water", elementType: "geometry", stylers: [{ color: "#000000" }, { lightness: 17 }] }];
+
+            // [
+            //   {
+            //     featureType: "poi.business",
+            //     stylers: [
+            //       { visibility: "off" }
+            //     ]
+            //   },{
+            //     featureType: "road",
+            //     elementType: "labels",
+            //     stylers: [
+            //       { visibility: "off" }
+            //     ]
+            //   },{
+            //     featureType: "road",
+            //     elementType: "labels",
+            //     stylers: [
+            //       { visibility: "off" }
+            //     ]
+            //   },{
+            //     featureType: "road",
+            //     elementType: "geometry",
+            //     stylers: [
+            //       { visibility: "simplified" },
+            //       { lightness: 70 }
+            //     ]
+            //   },{
+            //     featureType: "transit.line",
+            //     stylers: [
+            //       { visibility: "off" }
+            //     ]
+            //   },{
+            //     featureType: "transit.station.bus",
+            //     stylers: [
+            //       { visibility: "off" }
+            //     ]
+            //   }
+            // ];
             
             var map_inited = false;
             var map_options = {
