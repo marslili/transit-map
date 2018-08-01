@@ -1,6 +1,6 @@
 {
   "center.x": 120.96,
-  "center.y": 23.91,
+  "center.y": 24.5,
   "map_type_id": "roadmap",
   "zoom.start": 9,
   "zoom.min": 7,

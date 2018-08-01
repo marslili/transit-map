@@ -399,7 +399,7 @@ var simulation_manager = (function(){
                 d.setMinutes(0);
                 d.setSeconds(0);
                 d.setMilliseconds(0);
-                ts_now=(d.getTime()+(8*3600000))/1000;
+                ts_now = (d.getTime()+(8*3600000)) / 1000;
                 ts_midnight = d.getTime() / 1000;
             })();
             
@@ -607,8 +607,15 @@ var simulation_manager = (function(){
             vehicle_follow.stop();
             station_info_hide();
             vehicle_route.hide();
-
-            $('.vehicle_name', $('#vehicle_info')).text(vehicle.name + ' (' + vehicle.id + ')');
+            var trainName="";
+            trainName=vehicle.id;
+            if(vehicle.id.indexOf("TRA")!=-1){
+                trainName=vehicle.id.split("_")[1]+"車次";
+                console.log("trainName="+trainName)
+            }if(vehicle.id.indexOf("THSRC")!=-1){
+                trainName=vehicle.id.split("_")[1]+"車次";
+            }
+            $('.vehicle_name', $('#vehicle_info')).text(trainName);
             
             var route_config = config.getParam('routes')[vehicle.route_icon];
 
@@ -821,45 +828,43 @@ var simulation_manager = (function(){
         var extended_bounds = null;
         
         function init(){
-            var mapStyles = [{ featureType: "all", elementType: "labels.text.fill", stylers: [{ saturation: 36 }, { color: "#000000" }, { lightness: 40 }] }, { featureType: "all", elementType: "labels.text.stroke", stylers: [{ visibility: "on" }, { color: "#000000" }, { lightness: 16 }] }, { featureType: "all", elementType: "labels.icon", stylers: [{ visibility: "off" }] }, { featureType: "administrative", elementType: "geometry.fill", stylers: [{ color: "#000000" }, { lightness: 20 }] }, { featureType: "administrative", elementType: "geometry.stroke", stylers: [{ color: "#000000" }, { lightness: 17 }, { weight: 1.2 }] }, { featureType: "landscape", elementType: "geometry", stylers: [{ color: "#000000" }, { lightness: 20 }] }, { featureType: "poi", elementType: "geometry", stylers: [{ color: "#000000" }, { lightness: 21 }] }, { featureType: "road.highway", elementType: "geometry.fill", stylers: [{ color: "#000000" }, { lightness: 17 }] }, { featureType: "road.highway", elementType: "geometry.stroke", stylers: [{ color: "#000000" }, { lightness: 29 }, { weight: 0.2 }] }, { featureType: "road.arterial", elementType: "geometry", stylers: [{ color: "#000000" }, { lightness: 18 }] }, { featureType: "road.local", elementType: "geometry", stylers: [{ color: "#000000" }, { lightness: 16 }] }, { featureType: "transit", elementType: "geometry", stylers: [{ color: "#000000" }, { lightness: 19 }] }, { featureType: "water", elementType: "geometry", stylers: [{ color: "#000000" }, { lightness: 17 }] }];
-
-            // [
-            //   {
-            //     featureType: "poi.business",
-            //     stylers: [
-            //       { visibility: "off" }
-            //     ]
-            //   },{
-            //     featureType: "road",
-            //     elementType: "labels",
-            //     stylers: [
-            //       { visibility: "off" }
-            //     ]
-            //   },{
-            //     featureType: "road",
-            //     elementType: "labels",
-            //     stylers: [
-            //       { visibility: "off" }
-            //     ]
-            //   },{
-            //     featureType: "road",
-            //     elementType: "geometry",
-            //     stylers: [
-            //       { visibility: "simplified" },
-            //       { lightness: 70 }
-            //     ]
-            //   },{
-            //     featureType: "transit.line",
-            //     stylers: [
-            //       { visibility: "off" }
-            //     ]
-            //   },{
-            //     featureType: "transit.station.bus",
-            //     stylers: [
-            //       { visibility: "off" }
-            //     ]
-            //   }
-            // ];
+            var mapStyles = [
+              {
+                featureType: "poi.business",
+                stylers: [
+                  { visibility: "off" }
+                ]
+              },{
+                featureType: "road",
+                elementType: "labels",
+                stylers: [
+                  { visibility: "off" }
+                ]
+              },{
+                featureType: "road",
+                elementType: "labels",
+                stylers: [
+                  { visibility: "off" }
+                ]
+              },{
+                featureType: "road",
+                elementType: "geometry",
+                stylers: [
+                  { visibility: "simplified" },
+                  { lightness: 70 }
+                ]
+              },{
+                featureType: "transit.line",
+                stylers: [
+                  { visibility: "off" }
+                ]
+              },{
+                featureType: "transit.station.bus",
+                stylers: [
+                  { visibility: "off" }
+                ]
+              }
+            ];
             
             var map_inited = false;
             var map_options = {
@@ -876,7 +881,7 @@ var simulation_manager = (function(){
                 mapTypeControl: true,
                 mapTypeControlOptions: {
                     position: google.maps.ControlPosition.TOP_LEFT,
-                    mapTypeIds: [google.maps.MapTypeId.ROADMAP, google.maps.MapTypeId.TERRAIN, google.maps.MapTypeId.SATELLITE, 'stamen']
+                    mapTypeIds: [google.maps.MapTypeId.ROADMAP, google.maps.MapTypeId.TERRAIN, google.maps.MapTypeId.SATELLITE]
                 }
             };
 
@@ -893,10 +898,10 @@ var simulation_manager = (function(){
             }
 
             map = new google.maps.Map(document.getElementById("map_canvas"), map_options);
-            
+            /*
             var stamen_map = new google.maps.StamenMapType('watercolor');
             stamen_map.set('name', 'Stamen watercolor');
-            map.mapTypes.set('stamen', stamen_map);
+            map.mapTypes.set('stamen', stamen_map);*/
 
             function map_layers_add(){
                 var edges_layer;
@@ -1486,7 +1491,8 @@ var simulation_manager = (function(){
                 vehicle_ib.close();
 
                 var popup_div = $('#vehicle_popup');
-                $('span.vehicle_name', popup_div).text(that.name);
+                // console.log(that.route_icon_type)
+                $('span.vehicle_name', popup_div).text(that.route_icon_type);
 
                 var route_config = config.getParam('routes')[that.route_icon];
                 if (route_config) {

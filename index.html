@@ -2,11 +2,16 @@
 <html>
     <head>
         <title>Taiwan Railway Transit Map</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+       <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-timepicker/1.10.0/jquery.timepicker.min.css" rel="stylesheet" type="text/css" />
+       <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-timepicker/1.10.0/jquery.timepicker.min.css" rel="stylesheet" type="text/css" />
         <link href="static/css/reset.css" rel="stylesheet" type="text/css" />
         <link href="static/css/style.css" rel="stylesheet" type="text/css" />
+        <meta property="og:title" content="Taiwan Railway Simulation"/>
+        <meta property="og:description" content="Using GTFS to simulate train schedule"/>
+        <meta property="og:image" content="https://demo.datarget.com.tw/transit-map/static/images/fbog.jpg"/>
+        <meta property="og:url" content="https://demo.datarget.com.tw/transit-map/"/>
+        <meta property="og:type" content="website"/>
     </head>
     <body>
         <div id="map_canvas"></div>
@@ -14,9 +19,11 @@
             <div>
                 <h3>Taiwan Railways Map </h3>
                 <p>Project information available on <a href="https://github.com/vasile/transit-map" target="_blank">Github</a></p>
-                <p>Datasource from <a href="https://ptx.transportdata.tw/PTX" target="_blank">PTX</a></p>
-                <p>Generate GTFS by <a href="https://www.facebook.com/Innovation4Data/?ref=br_rs" target="_blank">創代科技</a></p>
-		<p>Last Update time:2018-07-30</p>
+                <p>Data From  <a href="https://ptx.transportdata.tw/PTX" target="_blank">交通部PTX</a></p>
+                <p>More information contact with <a href="https://www.facebook.com/Innovation4Data/?ref=br_rs" target="_blank">創代科技</a></p>
+                
+                <p>Last Update time:2018-07-30</p>
+                
             </div>
             <div class="section">
                 <b>Time:</b> <input type="text" id="day_time"></input> 
@@ -86,13 +93,13 @@
         </div>
         
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-        <script src="//maps.googleapis.com/maps/api/js?v=3.20&key=AIzaSyBwrNCSVh9QOKZjjND8uYMQqbBeoxMoXYU&amp;sensor=false&amp;libraries=geometry,places"></script>
+        <script src="//maps.googleapis.com/maps/api/js?v=3.31&key=AIzaSyBwrNCSVh9QOKZjjND8uYMQqbBeoxMoXYU&amp;libraries=geometry,places"></script>
         <script type="text/javascript" src="static/js/tile.stamen.js?v1.2.1"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-timepicker/1.10.0/jquery.timepicker.min.js"></script>
         <script src="static/js/infobox_packed.js"></script>
-        <script src="static/js/map.js?V=2332223"></script>
+        <script src="static/js/map.js?V=2332q23"></script>
         <script>
-            $('#day_time').timepicker({ 'timeFormat': 'H:i:s' ,'step':'60'});
+            $('#day_time').timepicker({ 'timeFormat': 'H:i:s','step':'60' });
         </script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
